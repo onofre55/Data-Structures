@@ -26,7 +26,7 @@ void populate_array(int* array, const int size) {
 
         //Assign value 
 
-        array[i] = i; //We can use pointer as an arrays
+        //array[i] = i; //We can use pointer as an arrays
         //* (array + i) = i;
 
         std::cout << *pointer++ << " , ";
