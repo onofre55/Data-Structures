@@ -54,7 +54,7 @@ void print_array(int* array, const int size) {
 
         //Alternative way of transversing over an array through a pointers
         //std::cout << array[i] << std::endl;
-        std::cout << *(array + i) << " , ";
+        //std::cout << *(array + i) << " , ";
 
         std::cout << *pointer++ << " , ";
 
@@ -148,10 +148,10 @@ int main()
 
     delete[] heap_array_pointer;
 
-    //Solve the above problem od memory leak - fixed
+    //Solve the above problem of memory leak - fixed
+
 
     
-
 }
 
 
